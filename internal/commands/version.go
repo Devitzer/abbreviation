@@ -6,8 +6,6 @@ import (
 	"fmt"
 )
 
-
-
 func Version() {
 	// make color stuff
 	c := color.New(color.FgBlue, color.Bold)
