@@ -1,0 +1,11 @@
+# build related items (tested or production binaries)
+build.sh
+local_build.sh
+builds/
+
+# binaries produced during testing
+abbreviation
+abbreviation.exe
+
+# stuff that no one cares about
+go.sum
