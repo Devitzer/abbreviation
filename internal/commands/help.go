@@ -30,15 +30,31 @@ func Help(args []string) {
 		case "list":
 			bold.Println("List Command")
 			fmt.Println("This command lists all the abbreviations in the database.")
+		case "add":
+			bold.Println("Add Command")
+			fmt.Println("This command adds or overwrites an abbreviation to the database.")
+			fmt.Println("	Arguments:")
+			fmt.Printf("	%s: The abbreviation's name. Ex: idk (%s)\n", bold.Sprintf("command"), required.Sprintf("REQUIRED"))
+		case "remove":
+			bold.Println("Remove Command")
+			fmt.Println("This command removes an abbreviation from the database.")
+			fmt.Println("	Arguments:")
+			fmt.Printf("	%s: The abbreviation's name. Ex: idk (%s)\n", bold.Sprintf("command"), required.Sprintf("REQUIRED"))
+		case "list-user":
+			bold.Println("List User Command")
+			fmt.Println("This command lists all the abbreviations in the user-defined database.")
 		default:
 			var err string = args[2] + " is not a command! Type \"abbreviation help\" to get a list of commands."
 			helpers.Error(err)
 		}
 	} else {
-		fmt.Println(c.Sprintf("abbreviation |"), "List of Commands")
+		fmt.Println(c.Sprintf("abbreviation"), "| List of Commands")
 		fmt.Println("help")
 		fmt.Println("search")
 		fmt.Println("version")
 		fmt.Println("list")
+		fmt.Println("add")
+		fmt.Println("remove")
+		fmt.Println("list-user")
 	}
 }
