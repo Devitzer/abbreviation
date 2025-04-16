@@ -1,3 +1,11 @@
+# LATEST UPDATE, VERSION UNDECIDED
+
+License changes. This update is not done.
+
+## Changed
+
+- Changed the license from CC-BY-NC-ND04.0 to CC-BY-SA-4.0, so the license is now less restrictive.
+
 # v0.6.0
 
 Custom abbreviations are now supported! <br>
