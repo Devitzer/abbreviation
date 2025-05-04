@@ -1,10 +1,10 @@
-# LATEST UPDATE, VERSION UNDECIDED
+# v1.0.0
 
-License changes. This update is not done.
+CLI deemed stable, it is going into v1 release.
 
 ## Changed
 
-- Changed the license from CC-BY-NC-ND04.0 to CC-BY-SA-4.0, so the license is now less restrictive.
+- Changed the license from CC-BY-NC-ND4.0 to CC-BY-SA-4.0, so the license is now less restrictive.
 
 # v0.6.0
 
