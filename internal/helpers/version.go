@@ -1,6 +1,6 @@
 package helpers
 
-var version = "v0.6.0"
+var version = "v1.0.0"
 
 func Version() string {
 	return version
