@@ -1,4 +1,5 @@
 # build related items (tested or production binaries)
+build.ps1
 build.sh
 local_build.sh
 builds/
