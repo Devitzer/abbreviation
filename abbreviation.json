@@ -75,6 +75,9 @@
         "kms": "Kill myself",
         "pmo": "Piss(es) me off",
         "smth": "Something",
-        "wsp": "What's up"
+        "wsp": "What's up",
+        "i18n": "Internationalization",
+        "l10n": "Localization",
+        "iot": "Internet of things"
     }
 }
